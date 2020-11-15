@@ -1,10 +1,10 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION } from "@angular/core";
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.scss' ]
+  selector: "my-app",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"]
 })
-export class AppComponent  {
-  name = 'Bom ' + VERSION.major;
+export class AppComponent {
+  name = "Bom Bom" + VERSION.major;
 }
