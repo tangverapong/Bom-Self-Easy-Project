@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AllGraphicPanelComponent } from './all-graphic-panel.component';
+import { CommonGraphicPanelComponent } from './common-graphic-panel.component';
 
-describe('AllGraphicPanelComponent', () => {
-  let component: AllGraphicPanelComponent;
-  let fixture: ComponentFixture<AllGraphicPanelComponent>;
+describe('CommonGraphicPanelComponent', () => {
+  let component: CommonGraphicPanelComponent;
+  let fixture: ComponentFixture<CommonGraphicPanelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AllGraphicPanelComponent ]
+      declarations: [ CommonGraphicPanelComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AllGraphicPanelComponent);
+    fixture = TestBed.createComponent(CommonGraphicPanelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

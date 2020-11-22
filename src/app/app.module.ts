@@ -5,14 +5,17 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { AllGraphicPanelComponent } from './all-graphic-panel/all-graphic-panel.component';
 import { RequestedGraphicPanelComponent } from './requested-graphic-panel/requested-graphic-panel.component';
+import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graphic-panel.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatTabsModule,
+  imports:      [ 
+    BrowserModule, 
+    FormsModule, 
+    
+    MatTabsModule,
     BrowserAnimationsModule ],
-  declarations: [ AppComponent, HelloComponent, AllGraphicPanelComponent, RequestedGraphicPanelComponent ],
+  declarations: [ AppComponent, RequestedGraphicPanelComponent, CommonGraphicPanelComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
