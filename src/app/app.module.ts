@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatTableModule } from '@angular/material/table';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { RequestedGraphicPanelComponent } from './requested-graphic-panel/requested-graphic-panel.component';
+import { WonPanelComponent } from './won-panel/won-panel.component';
 import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graphic-panel.component';
 
 @NgModule({
@@ -14,8 +15,9 @@ import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graph
     FormsModule, 
     
     MatTabsModule,
+    MatTableModule,
     BrowserAnimationsModule ],
-  declarations: [ AppComponent, RequestedGraphicPanelComponent, CommonGraphicPanelComponent ],
+  declarations: [ AppComponent, WonPanelComponent, CommonGraphicPanelComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

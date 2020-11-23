@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RequestedGraphicPanelComponent } from './requested-graphic-panel.component';
+import { WonPanelComponent } from './won-panel.component';
 
 describe('RequestedGraphicPanelComponent', () => {
-  let component: RequestedGraphicPanelComponent;
-  let fixture: ComponentFixture<RequestedGraphicPanelComponent>;
+  let component: WonPanelComponent;
+  let fixture: ComponentFixture<WonPanelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RequestedGraphicPanelComponent ]
+      declarations: [ WonPanelComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RequestedGraphicPanelComponent);
+    fixture = TestBed.createComponent(WonPanelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

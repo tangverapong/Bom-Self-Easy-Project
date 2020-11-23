@@ -1,15 +1,18 @@
 <div id="main">
+
   <div id="leftPanel">
-    <mat-tab-group animationDuration="0ms">
-      <mat-tab label="First"><app-requested-graphic-panel></app-requested-graphic-panel></mat-tab>
-      <mat-tab label="Second"><app-common-graphic-panel></app-common-graphic-panel> </mat-tab>
-    </mat-tab-group>
+    <div id="topBanner"></div>
+    <div id="playerPanel"></div>
+    <div id="parameterPanel"></div>
   </div>
 
   <div id="rightPanel">
-    <div id=rightTopPanel></div>
-    <div id=rightBottomPanel></div>
+    <mat-tab-group animationDuration="0ms">
+      <mat-tab label="WON"><app-won-panel></app-won-panel></mat-tab>
+      <mat-tab label="Common"><app-common-graphic-panel></app-common-graphic-panel> </mat-tab>
+    </mat-tab-group>
   </div>
+
 </div>
 
 
