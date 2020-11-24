@@ -8,6 +8,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { WonPanelComponent } from './won-panel/won-panel.component';
 import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graphic-panel.component';
+import { ParameterPanelComponent } from './parameter-panel/parameter-panel.component';
 
 @NgModule({
   imports:      [ 
@@ -17,7 +18,7 @@ import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graph
     MatTabsModule,
     MatTableModule,
     BrowserAnimationsModule ],
-  declarations: [ AppComponent, WonPanelComponent, CommonGraphicPanelComponent ],
+  declarations: [ AppComponent, WonPanelComponent, CommonGraphicPanelComponent, ParameterPanelComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { commonGraphicData } from '../animationData';
+import { commonGraphicData } from '../commonData';
 
 @Component({
   selector: 'app-common-graphic-panel',

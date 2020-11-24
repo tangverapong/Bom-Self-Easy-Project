@@ -1,0 +1,48 @@
+<div id=parameterPanel>
+    <dl>
+        <dt>Param 1</dt>
+        <input type="text" value="{{wonObj?.parameters[0]? wonObj?.parameters[0]?.values : '--'}}" />
+    
+        <dt>Param 2</dt>
+        <input type="text" value="{{wonObj?.parameters[1]? wonObj?.parameters[1].values  : '--'}}" />
+    
+        <dt>Param 3</dt>
+        <input type="text" value="{{wonObj?.parameters[2]? wonObj?.parameters[2].values : '--'}}" />
+    
+        <dt>Param 4</dt>
+        <input type="text" value="{{wonObj?.parameters[3]? wonObj?.parameters[3].values : '--'}}" />
+
+        <dt>Param 5</dt>
+        <input type="text" value="{{wonObj?.parameters[4]? wonObj?.parameters[4].values : '--'}}" />
+    
+        <dt>Param 6</dt>
+        <input type="text" value="{{wonObj?.parameters[5]? wonObj?.parameters[5].values : '--'}}" />
+    
+        <dt>Param 7</dt>
+        <input type="text" value="{{wonObj?.parameters[6]? wonObj?.parameters[6].values : '--'}}" />
+    
+        <dt>Param 8</dt>
+        <input type="text" value="{{wonObj?.parameters[7]? wonObj?.parameters[7].values : '--'}}" />
+    </dl>
+    
+    
+
+    <dl class="commonInfo">
+        <div id="titlePanel">
+            Parameter
+        </div>
+
+        <dt>ID</dt>
+        <dd>{{wonObj?.id}}&nbsp;</dd>
+    
+        <dt>Name</dt>
+        <dd>{{wonObj?.name}}&nbsp;</dd>
+    
+        <dt>TxDate</dt>
+        <dd>{{wonObj?.requestedAt}}&nbsp;</dd>
+    
+        <dt>Created</dt>
+        <dd>{{wonObj?.date}} {{wonObj?.time}}&nbsp;</dd>
+    </dl>
+</div>
+
