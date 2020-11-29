@@ -8,7 +8,7 @@ import { WonModel } from '../won-panel/wonModel';
 })
 export class ParameterPanelComponent implements OnInit {
 
-  @Input() wonObj: WonModel
+  @Input() dataObj;
   constructor() { }
 
   ngOnInit(): void {

@@ -12,12 +12,12 @@ export const commonGraphicData = [
           {
             "type": "text",
             "name": "PAR_TXT01",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT02",
-            "values": null
+            "values": "please enter input"
           }
         ]
       },
@@ -34,17 +34,17 @@ export const commonGraphicData = [
           {
             "type": "text",
             "name": "PAR_TXT01",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT02",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_ATV01",
-            "values": null
+            "values": "please enter input"
           }
         ]
       },
@@ -61,32 +61,32 @@ export const commonGraphicData = [
           {
             "type": "text",
             "name": "PAR_TXT01",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT02",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT03",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT04",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT05",
-            "values": null
+            "values": "please enter input"
           },
           {
             "type": "text",
             "name": "PAR_TXT06",
-            "values": null
+            "values": "please enter input"
           }
         ]
       }

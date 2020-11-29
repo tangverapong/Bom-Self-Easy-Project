@@ -1,5 +1,7 @@
 import { Component, VERSION } from "@angular/core";
+import { CommonGraphicPanelComponent } from './common-graphic-panel/common-graphic-panel.component';
 import { WonModel } from './won-panel/wonModel';
+import { CommonGraphicData } from './common-graphic-panel/common-graphic-panel.component';
 
 @Component({
   selector: "my-app",
@@ -7,21 +9,9 @@ import { WonModel } from './won-panel/wonModel';
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-  activeWonObj: WonModel = {
-    previewHash: "--",
-    user: "--",
-    date: "--",
-    time: "",
-    email: "--",
-    aspectRatio: "--",
-    id: "--",
-    name: "--",
-    channel: "--",
-    requestedAt: "--",
-    parameters: []
-};
+  activeDataObj: WonModel | CommonGraphicData;
 
-  updateParameterPanel(wonObj: WonModel) {
-    this.activeWonObj = wonObj;
+  updateParameterPanel(dataListObj) {
+    this.activeDataObj = dataListObj;
   }
 }
